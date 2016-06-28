@@ -1,0 +1,7 @@
+<h1 class="well">All Tasks</h1>
+
+<div class="btn-group-vertical btn-group-lg">
+<% @tasks.each do |task| %>
+  <h3 class="btn btn-default"><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
+<% end %>
+</div>

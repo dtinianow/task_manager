@@ -1,0 +1,12 @@
+---
+tasks:
+- id: 1
+  title: Make cookies
+  description: Cook up some cookies !
+- id: 2
+  title: write code
+  description: finish task manager project
+- id: 3
+  title: make this work
+  description: I need to make this project work
+total: 3
